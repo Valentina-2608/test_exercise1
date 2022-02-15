@@ -1,0 +1,107 @@
+@media(max-width: 1024px) {
+    .main {
+		width:100%;
+    }
+
+	.intro{ 
+	 left:170px;  
+    }
+	.short_lines{
+	 left:240px;   
+	 top:1040px;
+    }
+	.quality{
+	 left:240px;   
+	 top:1540px;
+    }
+	.quality_image{
+	 left:170px;   
+	 top:2240px;
+    }
+	.team{
+	 left:240px;   
+	 top:2787px;
+    }
+	footer{
+	margin-left:-170px;
+	left:0px;
+	top:3250px;
+}
+   
+}
+
+@media(max-width: 768px) {
+    .main {
+		width:100%;
+    }
+	.intro{
+	 left:0px;   
+    }
+	.short_lines{
+	 left:0px;   
+	 top:1040px;
+    }
+	.quality{
+	 left:0px;   
+	 top:1540px;
+    }
+	.quality_image{
+	 left:0px;   
+	 top:2240px;
+    }
+	.team{
+	 left:0px;   
+	 top:2787px;
+    }
+	footer{
+	margin-left:-170px;
+	left:0px;
+	top:3250px;
+}
+   
+}
+
+
+@media(max-width: 600px) {
+    .main {
+		width:100%;
+    }
+	.intro{
+	 left:0px;   
+    }
+	.short_lines{
+	 left:0px;   
+	 top:1040px;
+    }
+	.quality{
+	 left:0px;   
+	 top:1540px;
+    }
+	.quality_image{
+	 left:0px;   
+	 top:2240px;
+    }
+	.team{
+	 left:0px;   
+	 top:2787px;
+    }
+	footer{
+	margin-left:-170px;
+	left:0px;
+	top:3250px;
+}
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
