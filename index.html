@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Test_exercise</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" media="screen and (color)" href="css/media.css">
+</head>
+<body>
+<div class="main">
+<header>
+<div class="fon">
+<img src="img/fon.jpg">
+</div>
+<div class="shadow">
+<img src="img/top_shadow.jpg">
+</div>
+<div class="ripples">
+<img src="img/ripples.png">
+</div>
+<div class="logo">
+<img src="img/logo.png">
+</div>
+<nav>
+<a href="#">Services</a>
+<a href="#">Team</a>
+<a href="#">About</a>
+<a href="#">Join</a>
+<a href="#">News</a>
+<a href="#">Contact</a>
+</nav>
+<div class="lines">
+<img src="img/lines.png">
+</div>
+<div class="text1">
+The first partner you'll ever need.<br>
+Your trust is our value.
+</div>
+<div class="arrow">
+<img src="img/arrow.png">
+</div>
+</header>
+<div class="intro">
+<div class="text1">
+Griph is a collective of lawyers and tax specialists, almost all of whom are also entrepreneurs with
+excellent business skills. 
+</div>
+<div class="text2">
+Collectively, we represent years of experience and expertise from
+ leading law firms and hands-on business enterprises, bringing you the highest level of service based on complete
+ transparency, commitment, and very short lines of communication.
+</div>
+<button class="my_button" id="popup">
+<span>What can we do for you?</span>
+<img src="img/arrow_right.png">
+</button>
+
+<div id="myModal" class="modal_window">
+<div class="modal-content">
+<span class="close">&times;</span>
+<div class="question">What can we do for you?</div>
+
+<form>
+<input type="text" class="my_input" placeholder="Name">
+<input type="text" class="my_input" placeholder="Email">
+<textarea class="my_textarea" placeholder="Message"></textarea>
+<button class="my_button">
+<span>Send</span>
+<img src="img/arrow_right.png">
+</button>
+</form>
+ </div>
+</div>
+
+</div>
+<div class="short_lines">
+<div class="text3">
+<h2>short lines</h2>
+<p>At Griph, you always work directly with your own dedicated layer or tax specialist,
+giving you complete control over the entire progress.
+You always have real-time insight into the progress of your case and can make adjustments whenever necessary.</p>
+</div>
+</div>
+
+<div class="quality">
+<div class="text4">
+<h2>quality</h2>
+<p>All of your team members are seasored professionals with in-dept expertise in
+their particular fields, dedicated to providing high-quality services to all your
+clients, including startups and leading national and international businesses and
+investment funds. By combining the strengths of your specialized teams and
+members and making optimum use of all our networks, we provide our clients
+with integrated services of the highest possible quality.
+</p>
+</div>
+</div>
+
+<div class="quality_image">
+<img src="img/quality.jpg">
+<img src="img/ripples_1.png">
+</div>
+
+<div class="team">
+<div class="text5">
+<h2>team</h2>
+<p>Different areas of expertise and backgrounds, but in a single motivation:to provide the
+best possible advice and representation in court and out of court - committed, pragmatic, and effective.
+</p>
+</div>
+<button class="my_button">
+<span>Meet our team</span>
+<img src="img/arrow_right.png">
+</button>
+</div>
+
+<footer>
+<div class="info">
+<div class="contacts">
+<div class="mini_logo">
+<img src="img/mini_logo.png">
+<span>Griph - your first partner</span>
+</div>
+<div class="city_1">
+<span>Amsterdam</span><br>
+De Lairessestraat 117<br>
+1075 HH<br>
+T. +31(0)20 891 2701<br>
+T. +31(0)20 891 2701<br>
+<span>Email</span>
+</div>
+<div class="city_2">
+<span>Rotterdam</span><br>
+Westerkade 7C<br>
+1075 HH<br>
+T. +31(0)10 892 9600<br>
+T. +31(0)10 892 9601<br>
+<span>Email</span>
+</div>
+<div class="icons">
+<img src="img/icon_1.png">
+<img src="img/icon_2.png">
+</div>
+</div>
+<div class="year">
+<p>2016 Griph.All rights reserved</p>
+</div>
+</div>
+</footer>
+</div>
+<script>
+var modal = document.getElementById('myModal');
+var span = document.getElementsByClassName('close')[0];
+var popup = document.getElementById('popup');
+popup.addEventListener('click', func1);
+function func1(){
+modal.style.display = "block";
+}
+span.addEventListener('click', func2);
+function func2(){
+modal.style.display = "none";
+}
+
+</script>
+</body>
+
+</html>
